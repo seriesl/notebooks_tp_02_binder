@@ -7,11 +7,13 @@ void rock4_integration(double tini, double tend, int n, double *yini, double *y,
 {
   // time and time step
   double t, dt;
+  
+  int i;
 
   // initialization of t, dt and y
   t = tini;
   dt = 1.e-6;
-  for (int i=0; i<n; ++i) y[i] = yini[i];
+  for (i=0; i<n; ++i) y[i] = yini[i];
 
   // iwork : integer array of length 12 that gives information
   //         on how the problem is to be solved
