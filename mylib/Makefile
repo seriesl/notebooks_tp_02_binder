@@ -2,8 +2,8 @@ CC = gcc
 FC = gfortran
 LD = gcc
 
-CCFLAGS = 
-FCFLAGS = -fno-underscoring
+CCFLAGS = -fPIC
+FCFLAGS = -fPIC -fno-underscoring
 LDFLAGS = -shared
 
 OBJS = dc_decsol.o decsol.o radau5.o rock4.o integration_radau.o integration_rock.o
