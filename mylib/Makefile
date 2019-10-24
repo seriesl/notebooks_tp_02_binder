@@ -1,6 +1,6 @@
-CC = gcc
-FC = gfortran
-LD = gcc
+CC = x86_64-conda_cos6-linux-gnu-gcc
+FC = x86_64-conda_cos6-linux-gnu-gfortran
+LD = x86_64-conda_cos6-linux-gnu-gcc
 
 CCFLAGS = -fPIC
 FCFLAGS = -fPIC -fno-underscoring
